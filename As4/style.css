@@ -1,0 +1,266 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3C5898;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 200px; /* Adjust the width as needed */
+}
+.logo img:hover {
+    transform: scale(1.1); /* Adjust the scale factor for a slight zoom effect */
+    cursor: pointer;
+}
+nav {
+    background-color: #4CAF50;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    flex-grow: 1;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+section {
+    padding: 2em;
+}
+
+.hero {
+    text-align: center;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #85A47D;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* styles.css */
+
+/* ... (existing styles) */
+#home {
+    text-align: center;
+    color: white; /* Цвет текста */
+    padding: 200px 0; /* Расстояние сверху и снизу внутри блока */
+    background-size: cover; /* Растягивание фоновой картинки на всю ширину и высоту блока */
+}
+
+#home .content {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон для лучшей читаемости текста */
+    padding: 20px; /* Внутренний отступ внутри блока с текстом */
+}
+
+#products {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 100px 0;
+    background-image: url('static/image/products_background.jpg');
+    background-size: cover;
+}
+
+#products .content {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#products .image {
+    flex: 1;
+}
+
+#products img {
+    width: 100%; /* Растягиваем изображение на всю ширину блока */
+    border-radius: 8px; /* Добавляем скругленные углы для эстетики */
+}
+#design {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 100px 0;
+    background-image: url('static/image/design_background.jpg');
+    background-size: cover;
+}
+
+#design .content {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#design .image {
+    flex: 1;
+}
+
+#design img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.product-card:hover {
+    background-color: #f0f0f0;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.product-card p {
+    color: #555;
+}
+
+#product-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+    color: white; /* Цвет текста */
+}
+
+#product-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+    color: white; /* Цвет текста */
+    background-image: url('static/image/загрузка\ \(8\).jpg'), url('static/image/загрузка\ \(9\).jpg'), url('static/image/загрузка\ \(10\).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-info-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#product-info .content {
+    max-width: 600px; /* Максимальная ширина текстового контейнера */
+}
+
+#product-info img {
+    width: 100%; /* Растягиваем изображения на всю ширину блока */
+    max-width: 200px; /* Устанавливаем максимальную ширину изображений */
+    border-radius: 8px;
+    margin-top: 20px; /* Расстояние между изображениями и текстом */
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Цвет кнопки */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049; /* Цвет кнопки при наведении */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#exploreButton {
+    transition: color 0.3s ease-in-out;
+}
+
+#exploreButton:hover {
+    color: #3C5898; /* Любой цвет, который вам нравится */
+}
+@keyframes explode {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.explode {
+    animation: explode 0.5s ease-out;
+}
+#about-us {
+    background: url('static/image/загрузка\ \(18\).jpg') center center/cover no-repeat;
+}
+
+#sets-of-products {
+    background: url('static/image/загрузка\ \(19\).jpg') center center/cover no-repeat;
+}
+
+#mission {
+    background: url('path/to/mission-background.jpg') center center/cover no-repeat;
+}
+
+#join-us {
+    background: url('path/to/join-us-background.jpg') center center/cover no-repeat;
+}
+
+#get-involved {
+    background: url('path/to/get-involved-background.jpg') center center/cover no-repeat;
+}
